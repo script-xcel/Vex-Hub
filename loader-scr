@@ -1,7 +1,1 @@
-if game.PlaceId == 142823291 then
-    loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/e2b925664d21e1eb"))()
-elseif game.PlaceId == 6447798030 then
-    loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/14bceaa739dbd784"))()
-else
-    game.Players.LocalPlayer:Kick("Wrong game!")
-end
+
